@@ -1,6 +1,7 @@
 import http from '../http-common';
 
 const getAll = () => {
+  console.log(http.get('/grade'));
   return http.get('/grade');
 };
 
