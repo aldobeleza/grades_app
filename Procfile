@@ -1,1 +1,1 @@
-web: serve -s start
+web: react-scripts start
