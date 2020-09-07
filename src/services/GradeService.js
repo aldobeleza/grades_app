@@ -6,6 +6,8 @@ const getAll = () => {
 };
 
 const get = (id) => {
+  console.log(http.get('/grade'));
+
   return http.get(`/grade/${id}`);
 };
 

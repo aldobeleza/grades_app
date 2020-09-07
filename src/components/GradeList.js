@@ -9,6 +9,7 @@ const GradeList = () => {
   const [searchName, setSearchName] = useState('');
 
   useEffect(() => {
+    console.log('use efect');
     retrieveGrade();
   }, []);
 
